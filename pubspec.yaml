@@ -1,0 +1,24 @@
+name: fitquest_flutter
+description: A Flutter version of the FitQuest fitness app.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  geolocator: ^10.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/slide1_final.png
+    - assets/images/slide2_final.png
+    - assets/images/slide3_final.png
